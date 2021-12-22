@@ -1,12 +1,69 @@
-.nav-bottom{
-    background-color:mediumturquoise;
-    border: none;
-    color: white;
-    text-align: center;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 8px ;
-    
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
+.row > * {
+  padding: 0 !important;
+}
 
+.nav-bottom {
+  background-color: mediumturquoise;
+  border: none;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  margin: 4px 2px;
+  border-radius: 8px;
+}
+
+.home-top {
+  background: url('https://nt.global.ssl.fastly.net/images/1431737659963-hambledonhillview2rosshoddinott.jpg?width=1920&auto=webp&crop=16:7')
+    center center/cover;
+  height: 200px;
+  width: 100%;
+  position: relative;
+}
+
+.columns1,
+.columns4,
+.columns6 {
+  background: url('https://nt.global.ssl.fastly.net/images/1431737659963-hambledonhillview2rosshoddinott.jpg?width=1920&auto=webp&crop=16:7')
+    center center/cover;
+  height: 100px;
+}
+
+.columns2,
+.columns8,
+.columns9,
+.columns10,
+.columns11 {
+  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
+    center center/cover;
+  height: 100px;
+}
+
+.category {
+  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
+    center center/cover;
+}
+
+.columns3,
+.columns5 {
+  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
+    center center/cover;
+  height: 100px;
+}
+
+w-25 {
+  width: 25%;
+}
+
+w-75 {
+  width: 75%;
+}
+
+.row {
+  margin: 0 !important;
+}

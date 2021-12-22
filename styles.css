@@ -1,0 +1,10 @@
+.nav-bottom{
+    background-color:mediumturquoise;
+    border: none;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    border-radius: 8px ;
+    
+}

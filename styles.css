@@ -19,42 +19,138 @@
 }
 
 .home-top {
-  background: url('https://nt.global.ssl.fastly.net/images/1431737659963-hambledonhillview2rosshoddinott.jpg?width=1920&auto=webp&crop=16:7')
+  background: url('imges/img_1.jpg')
     center center/cover;
-  height: 200px;
-  width: 100%;
-  position: relative;
+    height: 300px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+  
 }
 
-.columns1,
-.columns4,
-.columns6 {
-  background: url('https://nt.global.ssl.fastly.net/images/1431737659963-hambledonhillview2rosshoddinott.jpg?width=1920&auto=webp&crop=16:7')
+.columns1{
+  background: url('imges/img_2.jpg')
     center center/cover;
-  height: 100px;
+    height: 200px;
+    width: 315px;
+    text-align: left;
+  color: azure;
+}
+.intro{
+  text-align: center;
+  color: azure;
 }
 
-.columns2,
-.columns8,
-.columns9,
-.columns10,
-.columns11 {
-  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
-    center center/cover;
-  height: 100px;
+.search_bottun{
+  align-items: center;
 }
 
+
+.columns2{
+  background: url('imges/img_3.jpeg')
+    center center/cover;
+    height: 200px;
+    width: 632px;
+    text-align: left;
+    color: azure;
+
+    
+}
+.columns3{
+    background-color: dodgerblue;
+    color: azure;
+    text-align: left;
+    height: 200px;
+    width: 315px;
+    padding: 2px;
+  }
+    
+  .columns4{
+      background-color: royalblue;
+      height: 200px;
+      width: 315px;
+      text-align: center;
+      color: azure;
+
+    }
+    .columns5{
+      color: midnightblue;
+    }
+.follow{
+  text-align: left;
+  padding: 6px;
+}
+.follow2{
+  text-align: right;
+  padding: 7px;
+  color: deepskyblue;
+}
+
+  .paragreaph1{
+      padding: 2px;
+    }
+
+    .columns6{
+      background: url('imges/img_7.jpg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+    }
+    .columns7{
+      color: midnightblue;
+
+    }
+
+    .columns8{
+      background: url('imges/img8.jpeg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+    }
+
+    .columns9{
+      background: url('imges/img9.jpeg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+    }
+
+    .columns10{
+      background: url('imges/img11.jpeg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+    }
+
+    .columns11{
+      background: url('imges/img10.jpeg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+
+    }
+
+    /* .columns8{
+      background: url('imges/img_7.jpg')
+      center center/cover;
+      height: 200px;
+      width: 315px;
+    } */
+    /* .columns5{
+    
+      height: 200px;
+      width: 632px;
+    }
+
+    .columns7{
+      
+      height: 200px;
+      width: 632px;
+    } */
 .category {
-  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
-    center center/cover;
+  
 }
 
-.columns3,
-.columns5 {
-  background: url('https://static-secure.guim.co.uk/sys-images/Books/Pix/pictures/2014/7/15/1405420206926/Silbury-Hill-014.jpg')
-    center center/cover;
-  height: 100px;
-}
 
 w-25 {
   width: 25%;
